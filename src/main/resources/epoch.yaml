@@ -1,0 +1,114 @@
+id: Epoch time page
+location: http://www.epochconverter.com/
+description: Epoch time convertor page
+components:
+  -
+    name: Clock
+    type: text
+    locators:
+       type: id
+       value: ecclock
+       waitTime: 20
+  -
+    name: Timestamp
+    type: button
+    locators:
+      -
+         type: css
+         value: "#ef > button:nth-child(2)"
+      -
+         type: xpath
+         value: //*[@id="ef"]/button[1]
+         waitTime: 20
+  -
+    name: GMT
+    type: text
+    locators:
+       type: id
+       value: result1
+       waitTime: 20
+  -
+    name: TimeZone
+    type: text
+    locators:
+      -
+         type: css
+         value: div#result1 > a
+      -
+         type: xpath
+         value: //*[@id="result1"]/a
+         waitTime: 20
+
+  -
+    name: Year
+    type: text field
+    locators:
+       type: id
+       value: hcinput
+       waitTime: 20
+  -
+    name: Month
+    type: text field
+    locators:
+       type: id
+       value: mm
+       waitTime: 20
+  -
+    name: Day
+    type: text field
+    locators:
+       type: name
+       value: dd
+       waitTime: 20
+  -
+    name: Hour
+    type: text field
+    locators:
+       type: name
+       value: hh
+       waitTime: 20
+  -
+     name: Min
+     type: text field
+     locators:
+        type: name
+        value: mn
+        waitTime: 20
+  -
+     name: Sec
+     type: text field
+     locators:
+        type: name
+        value: ss
+        waitTime: 20
+  -
+     name: Clear
+     type: link
+     locators:
+       -
+        type: css
+        value: p.desktoponly > a:nth-child(2)
+       -
+        type: xpath
+        value: //*[@id="contentcolumn"]/div[2]/p[3]/a
+        waitTime: 20
+  -
+     name: ToTimestamp
+     type: button
+     locators:
+       -
+          type: css
+          value: "#hf > table:nth-child(3) > tbody > tr > td > button"
+       -
+          type: xpath
+          value: //*[@id="hf"]/table[3]/tbody/tr/td/button
+          waitTime: 20
+
+  -
+     name: Timestamp2016
+     type: text
+     locators:
+        type: id
+        value: result2
+        waitTime: 20
+

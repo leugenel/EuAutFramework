@@ -1,0 +1,11 @@
+#artifacts
+target/
+*.class
+*.log
+#Intellij
+.settings/
+.idea/
+*.iml
+*.iws
+#Ubuntu
+.DS_Store
