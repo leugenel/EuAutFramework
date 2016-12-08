@@ -1,3 +1,4 @@
+package com.liveperson;
 import com.liveperson.automation.ui.web.WebBrowser;
 import com.liveperson.automation.ui.webdriver.builder.WebDriverBrowserBuilder;
 import org.apache.log4j.Logger;

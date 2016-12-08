@@ -1,3 +1,4 @@
+package com.liveperson;
 import com.liveperson.automation.ui.core.annotations.LoadableView;
 import com.liveperson.automation.ui.web.view.WebPageView;
 

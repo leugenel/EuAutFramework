@@ -2,6 +2,7 @@
  *
  * Created by eugenel on 10/18/16.
  */
+package com.liveperson;
 
 import org.apache.log4j.ConsoleAppender;
 import org.apache.log4j.Level;
